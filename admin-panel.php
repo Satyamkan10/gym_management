@@ -1,27 +1,5 @@
 <!DOCTYPE html>
-<?php
-
-// php select option value from database
-
-$hostname = "localhost";
-$username = "root";
-$password = "";
-$databaseName = "loginsystem";
-
-// connect to mysql database
-
-$connect = mysqli_connect($hostname, $username, $password, $databaseName);
-
-// mysql select query
-$query = "SELECT * FROM `Trainer`";
-
-// for method 1
-
-$result1 = mysqli_query($connect, $query);
-
-
-
-?>
+ 
 <html>
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
